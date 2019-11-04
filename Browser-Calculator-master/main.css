@@ -1,0 +1,16 @@
+.parentContainer {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1; }
+  .parentContainer .basicContainer .row,
+  .parentContainer .specialContainer .row {
+    margin: 5px;
+    padding: 10px; }
+    .parentContainer .basicContainer .row .calc-input,
+    .parentContainer .basicContainer .row .calc-input-target,
+    .parentContainer .specialContainer .row .calc-input,
+    .parentContainer .specialContainer .row .calc-input-target {
+      margin: 5px; }

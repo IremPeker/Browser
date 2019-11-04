@@ -1,0 +1,33 @@
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/code";
+// @import "node_modules/bootstrap/scss/grid";
+// @import "node_modules/bootstrap/scss/functions";
+
+// example usage of extend if you want to use bootstrap classes
+// .row-dark {
+//     @extend .row;
+//     background-color: #333333;
+//     color: #ffffff;
+//  }
+
+// @import "bootstrap";
+
+.parentContainer {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  .basicContainer,
+  .specialContainer {
+    .row {
+      margin: 5px;
+      padding: 10px;
+      .calc-input,
+      .calc-input-target {
+        margin: 5px;
+      }
+    }
+  }
+}
